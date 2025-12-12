@@ -1,0 +1,50 @@
+2025-12-12T15:16:43.615915605Z   column: undefined,
+2025-12-12T15:16:43.615917326Z   dataType: undefined,
+2025-12-12T15:16:43.615919046Z   constraint: undefined,
+2025-12-12T15:16:43.615920786Z   file: 'parse_relation.c',
+2025-12-12T15:16:43.615922546Z   line: '1466',
+2025-12-12T15:16:43.615924306Z   routine: 'parserOpenTable'
+2025-12-12T15:16:43.615926046Z }
+2025-12-12T15:16:43.847061195Z 3:16:43 PM [express] serving on port 10000
+2025-12-12T15:16:45.961230638Z ==> Your service is live 🎉
+2025-12-12T15:16:46.128651334Z ==> 
+2025-12-12T15:16:46.29567567Z ==> ///////////////////////////////////////////////////////////
+2025-12-12T15:16:46.463710106Z ==> 
+2025-12-12T15:16:46.629214822Z ==> Available at your primary URL https://wonke-pos-v1-2.onrender.com
+2025-12-12T15:16:46.793412889Z ==> 
+2025-12-12T15:16:47.60734806Z ==> ///////////////////////////////////////////////////////////
+2025-12-12T15:21:50.824382325Z ==> Detected service running on port 10000
+2025-12-12T15:21:51.170492092Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2025-12-12T15:22:18.057918796Z ==> Running 'npm run start'
+2025-12-12T15:22:19.1693387Z 
+2025-12-12T15:22:19.169400271Z > rest-express@1.0.0 start
+2025-12-12T15:22:19.169406591Z > NODE_ENV=production node dist/index.cjs
+2025-12-12T15:22:19.169409251Z 
+2025-12-12T15:22:20.264534591Z [dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+2025-12-12T15:22:20.265048379Z Using DATABASE_URL=postgresql:****@dpg-d4u292n17kns73d02vo0-a/wonke_v1_2_db
+2025-12-12T15:22:20.363285095Z Checking if database already has owners...
+2025-12-12T15:22:20.57683886Z Error seeding database: error: relation "owners" does not exist
+2025-12-12T15:22:20.576868051Z     at /opt/render/project/src/node_modules/pg-pool/index.js:45:11
+2025-12-12T15:22:20.576873171Z     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2025-12-12T15:22:20.576875871Z     at async /opt/render/project/src/dist/index.cjs:69:31418
+2025-12-12T15:22:20.576878301Z     at async eb (/opt/render/project/src/dist/index.cjs:69:110522)
+2025-12-12T15:22:20.576880381Z     at async /opt/render/project/src/dist/index.cjs:69:114370 {
+2025-12-12T15:22:20.576882521Z   length: 105,
+2025-12-12T15:22:20.576885471Z   severity: 'ERROR',
+2025-12-12T15:22:20.576887711Z   code: '42P01',
+2025-12-12T15:22:20.576889771Z   detail: undefined,
+2025-12-12T15:22:20.576891891Z   hint: undefined,
+2025-12-12T15:22:20.576893951Z   position: '68',
+2025-12-12T15:22:20.576897141Z   internalPosition: undefined,
+2025-12-12T15:22:20.576899191Z   internalQuery: undefined,
+2025-12-12T15:22:20.576901241Z   where: undefined,
+2025-12-12T15:22:20.576903291Z   schema: undefined,
+2025-12-12T15:22:20.576905381Z   table: undefined,
+2025-12-12T15:22:20.576907441Z   column: undefined,
+2025-12-12T15:22:20.576909761Z   dataType: undefined,
+2025-12-12T15:22:20.576911841Z   constraint: undefined,
+2025-12-12T15:22:20.576913911Z   file: 'parse_relation.c',
+2025-12-12T15:22:20.576916001Z   line: '1466',
+2025-12-12T15:22:20.576918121Z   routine: 'parserOpenTable'
+2025-12-12T15:22:20.576920212Z }
+2025-12-12T15:22:20.763072715Z 3:22:20 PM [express] serving on port 10000

@@ -1,0 +1,64 @@
+2025-12-12T14:57:26.106193034Z ==> Cloning from https://github.com/Ethioskas/Wonke-POS-V1.2
+2025-12-12T14:57:26.732158776Z ==> Checking out commit 8d1998833a90ef9a100a06bbacd01426b180176e in branch master
+2025-12-12T14:57:28.178691904Z ==> Using Node.js version 22.16.0 (default)
+2025-12-12T14:57:28.203807518Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2025-12-12T14:57:30.066385182Z ==> Running build command 'npm install && npm run build'...
+2025-12-12T14:57:37.321081122Z 
+2025-12-12T14:57:37.321106632Z added 516 packages, and audited 517 packages in 7s
+2025-12-12T14:57:37.321117352Z 
+2025-12-12T14:57:37.321121582Z 53 packages are looking for funding
+2025-12-12T14:57:37.321124322Z   run `npm fund` for details
+2025-12-12T14:57:37.337596514Z 
+2025-12-12T14:57:37.337610185Z 6 vulnerabilities (2 low, 4 moderate)
+2025-12-12T14:57:37.337613275Z 
+2025-12-12T14:57:37.337616225Z To address issues that do not require attention, run:
+2025-12-12T14:57:37.337618385Z   npm audit fix
+2025-12-12T14:57:37.337620435Z 
+2025-12-12T14:57:37.337622525Z To address all issues (including breaking changes), run:
+2025-12-12T14:57:37.337625615Z   npm audit fix --force
+2025-12-12T14:57:37.337627595Z 
+2025-12-12T14:57:37.337630875Z Run `npm audit` for details.
+2025-12-12T14:57:37.50208448Z 
+2025-12-12T14:57:37.5021004Z > rest-express@1.0.0 build
+2025-12-12T14:57:37.50210376Z > npx tsx script/build.ts
+2025-12-12T14:57:37.50210585Z 
+2025-12-12T14:57:38.37389227Z building client...
+2025-12-12T14:57:38.516677616Z vite v7.2.7 building client environment for production...
+2025-12-12T14:57:38.696981913Z transforming...
+2025-12-12T14:57:42.81833266Z ✓ 2517 modules transformed.
+2025-12-12T14:57:43.535149122Z rendering chunks...
+2025-12-12T14:57:43.541717461Z [meta-images] no Replit deployment domain found, skipping meta tag updates
+2025-12-12T14:57:43.546024572Z computing gzip size...
+2025-12-12T14:57:43.571711866Z ../dist/public/index.html                     1.55 kB │ gzip:   0.63 kB
+2025-12-12T14:57:43.571732466Z ../dist/public/assets/index-DegsxLvD.css    103.14 kB │ gzip:  17.05 kB
+2025-12-12T14:57:43.571884838Z ../dist/public/assets/index-BUi1e_3g.js   1,012.88 kB │ gzip: 293.80 kB
+2025-12-12T14:57:43.57196502Z 
+2025-12-12T14:57:43.57197228Z (!) Some chunks are larger than 500 kB after minification. Consider:
+2025-12-12T14:57:43.57197805Z - Using dynamic import() to code-split the application
+2025-12-12T14:57:43.57198251Z - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+2025-12-12T14:57:43.57198601Z - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2025-12-12T14:57:43.572232924Z ✓ built in 4.91s
+2025-12-12T14:57:43.572345866Z building server...
+2025-12-12T14:57:43.654275278Z 
+2025-12-12T14:57:43.654298239Z   dist/index.cjs  984.6kb
+2025-12-12T14:57:43.654301569Z 
+2025-12-12T14:57:43.654304549Z ⚡ Done in 81ms
+2025-12-12T14:57:46.276933059Z ==> Uploading build...
+2025-12-12T14:57:54.789111041Z ==> Uploaded in 5.1s. Compression took 3.5s
+2025-12-12T14:57:54.818259272Z ==> Build successful 🎉
+2025-12-12T15:01:04.470925135Z ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+2025-12-12T15:01:04.61507347Z ==> Deploying...
+2025-12-12T15:02:37.165598831Z ==> Running 'npm run start'
+2025-12-12T15:02:38.274468752Z 
+2025-12-12T15:02:38.274489642Z > rest-express@1.0.0 start
+2025-12-12T15:02:38.274493303Z > cross-env NODE_ENV=production node dist/index.cjs
+2025-12-12T15:02:38.274495703Z 
+2025-12-12T15:02:38.281697576Z sh: 1: cross-env: not found
+2025-12-12T15:02:41.871585058Z ==> Exited with status 127
+2025-12-12T15:02:42.014868694Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+2025-12-12T15:02:46.360066614Z ==> Running 'npm run start'
+2025-12-12T15:02:47.363847626Z 
+2025-12-12T15:02:47.363880957Z > rest-express@1.0.0 start
+2025-12-12T15:02:47.363885417Z > cross-env NODE_ENV=production node dist/index.cjs
+2025-12-12T15:02:47.363887727Z 
+2025-12-12T15:02:47.449492316Z sh: 1: cross-env: not found
